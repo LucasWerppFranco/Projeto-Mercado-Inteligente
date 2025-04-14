@@ -4,11 +4,11 @@ import time
 
 def gerar_numero_de_clientes():
     mensagens = [
-        "Número baixo! - Dois caixas abertos.",
-        "Número médio! - Tres caixas abertos",
-        "Número alto! - Quatro caixas abertos",
-        "Número muito alto! - Cinco caixas abertos",
-        "Número máximo! - Seis caixas abertos",
+        "Número baixo! - Dois caixas abertos.\n ---",
+        "Número médio! - Tres caixas abertos.\n ---",
+        "Número alto! - Quatro caixas abertos.\n ---",
+        "Número muito alto! - Cinco caixas abertos.\n ---",
+        "Número máximo! - Seis caixas abertos.\n ---",
     ]
 
     ultimo_numero = -1
@@ -16,7 +16,7 @@ def gerar_numero_de_clientes():
         clientes = random.randint(10, 60)
         print(f"Número de clientes no mercado: {clientes}")
 
-        if ultimo_numero == -1 or abs(clientes - ultimo_numero) >= 20:
+        if ultimo_numero == -1 or abs(clientes - ultimo_numero) >= 10:
             if clientes < 20:
                 print(mensagens[0])
             elif clientes < 30:
