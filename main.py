@@ -16,7 +16,7 @@ def gerar_numero_de_clientes():
         clientes = random.randint(10, 60)
         print(f"Número de clientes no mercado: {clientes}")
 
-        if ultimo_numero == -1 or abs(clientes - ultimo_numero) >= 20:
+        if ultimo_numero == -1 or abs(clientes - ultimo_numero) >= 10:
             if clientes < 20:
                 print(mensagens[0])
             elif clientes < 30:
