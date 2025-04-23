@@ -1,5 +1,15 @@
 # Projeto-Mercado-Inteligente
 
+```
+ O_
+    \__________________________
+      \   CP 2 - Supermercado  |
+        \      Inteligente     |
+          \___________________|
+          /                 \
+        ()                    ()
+```
+
 Programa de Otimização de Mercados
 
 - Ideia: Um detector será inserido na entrada e na saída do super mercado, numerando o número de clientes que entraram e saíram. E de acordo com o número de clientes, um número x de caixas será solicitado. 
@@ -9,21 +19,3 @@ Programa de Otimização de Mercados
    Ex: Se o número de itens total nos carrinhos do mercado for >= 500, 6 caixas são solicitados. Suponhamos que há 440 itens no total nos carrinhos em circulação, e um cliente novo chega e coloca 60 itens em seu carrinho atingindo 500, o programa automaticamente solicitaria a abertura de mais um caixa, visando a otimização de circulação de clientes no mercado. 
 
 OBS: Com isso, haveria a possibilidade de estimar estatisticamente, qual é o número máximo de clientes e produtos no carrinhos que possibilita uma circulação otimizada no mercado. 
-
-## Iniciando a Venv do projeto
-
-- **Linux / macOS:**
-  ```bash
-  source venv/bin/activate
-  ```
-
-- **Windows (cmd):**
-  ```cmd
-  venv\Scripts\activate
-  ```
-
-- **Windows (PowerShell):**
-  ```powershell
-  .\venv\Scripts\Activate.ps1
-  ```
-
