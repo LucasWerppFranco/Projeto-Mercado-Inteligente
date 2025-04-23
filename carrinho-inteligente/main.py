@@ -37,7 +37,6 @@ class Carrinho:
         return lista
 
 def main():
-    # Criando alguns produtos
     produtos = {
         "001": Produto("001", "Arroz", 5.50),
         "002": Produto("002", "Feijão", 4.00),
@@ -52,8 +51,7 @@ def main():
     }
 
     carrinho = Carrinho()
-
-    # Exibindo as chaves e produtos disponíveis
+    
     print("Produtos disponíveis:")
     for chave, produto in produtos.items():
         print(f"Chave: {chave} - Produto: {produto.nome} - Preço: R${produto.preco:.2f}")
